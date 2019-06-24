@@ -10,8 +10,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        double min = 0;
-        double max = 0;
+        int min = 0;
+        int max = 0;
 
         boolean first = true;
 
@@ -41,7 +41,7 @@ public class Main {
         scanner.close();
     }
 
-    public static double minMaxService(double enteredNumber, double currentNumber, String serviceType){
+    public static int minMaxService(int enteredNumber, int currentNumber, String serviceType){
         switch (serviceType){
             case "min":
                 return enteredNumber < currentNumber ? enteredNumber : currentNumber;
