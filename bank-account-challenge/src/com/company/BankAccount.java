@@ -12,7 +12,7 @@ public class BankAccount {
 
     //establish object defaults using uniquie 'this' keyword
     public BankAccount(){
-        this("000000", 0, "John Doe", "12343252523", "test@test.com")
+        this("000000", 0, "John Doe", "12343252523", "test@test.com");
     }
 
     //constructor
